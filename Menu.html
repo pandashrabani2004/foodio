@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Category Filter</title>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.6.2/css/bootstrap.min.CSS">
+      
+          
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel = "stylesheet" href = "Menu.css">
+</head>
+<body>
+
+
+    <body>
+        <section class="menu">
+          <div class="nav">
+            <div class="logo"><h1>Food<b>io</b></h1></div>
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a class="active" href="Menu.html">Explore food</a></li>
+              
+              <li><a href="Gallery.html">Gallery</a></li>
+              <li><a href="Team.html">Team</a></li>
+              
+              <li><a href="Order.html">Order</a></li>
+              
+            </ul>
+            <div class="icon">
+                <!-- <input class="signin" type="submit" value="sign In" name="signin">
+                <input class="signup" type="submit" value="sign Up" name="signup"> -->
+                <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+
+          </div>
+        </section>
+
+
+    <div class = "wrapper">
+        <div class = "category-filter">
+            <div class = "container">
+                <div class = "title">
+                    <h1>Your special dishes</h1>
+                </div>
+
+                <div class = "filter-btns">
+                    <button type = "button" class = "filter-btn" id = "all">all</button>
+                    <button type = "button" class = "filter-btn" id = "new">new</button>
+                    <button type = "button" class = "filter-btn" id = "best-sellers">best seller</button>
+                    <button type = "button" class = "filter-btn" id = "specials">specials</button>
+                </div>
+
+                <div class = "filter-items">
+                    <div class = "filter-item all new">
+                        <div class = "item-img">
+                            <img src = "./assets/img/1.png" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Grilled chicken</p>
+                            <div>
+                                <span class = "old-price">$400.50</span>
+                                <span class = "new-price">$.480</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/2.png" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Onion chicken</p>
+                            <div>
+                                <span class = "old-price">$180.50</span>
+                                <span class = "new-price">$160.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all specials">
+                        <div class = "item-img">
+                            <img src = "./assets/img/3.png" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Beef Onion</p>
+                            <div>
+                                <span class = "old-price">$280.50</span>
+                                <span class = "new-price">$260.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all new">
+                        <div class = "item-img">
+                            <img src = "./assets/img/4.png" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Stovetop Burger</p>
+                            <div>
+                                <span class = "old-price">$390.50</span>
+                                <span class = "new-price">$370.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/31.avif" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Healthy juice</p>
+                            <div>
+                                <span class = "old-price">$220.50</span>
+                                <span class = "new-price">$200.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all specials">
+                        <div class = "item-img">
+                            <img src = "./assets/img/19.jpeg" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>One pot chicken Chow</p>
+                            <div>
+                                <span class = "old-price">$2500.50</span>
+                                <span class = "new-price">$230.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all new">
+                        <div class = "item-img">
+                            <img src = "./assets/img/20.avif" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Egg Cress Sandwich</p>
+                            <div>
+                                <span class = "old-price">$140.50</span>
+                                <span class = "new-price">$120.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/21.avif" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Chinees Orang chicken</p>
+                            <div>
+                                <span class = "old-price">$400.50</span>
+                                <span class = "new-price">$380.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all specials">
+                        <div class = "item-img">
+                            <img src = "./assets/img/23.avif" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Vaniyambadi Biriani</p>
+                            <div>
+                                <span class = "old-price">$240.50</span>
+                                <span class = "new-price">$220.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all new">
+                        <div class = "item-img">
+                            <img src = "./assets/img/22.jpg" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Hndi Delhi Biriani</p>
+                            <div>
+                                <span class = "old-price">$290.50</span>
+                                <span class = "new-price">$280.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/24.jpg" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Epic Burger</p>
+                            <div>
+                                <span class = "old-price">$260.50</span>
+                                <span class = "new-price">$240.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all specials">
+                        <div class = "item-img">
+                            <img src = "./assets/img/25.jpg" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Tndurui</p>
+                            <div>
+                                <span class = "old-price">$180.50</span>
+                                <span class = "new-price">$160.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/30.avif" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>butter Panner</p>
+                            <div>
+                                <span class = "old-price">$320.50</span>
+                                <span class = "new-price">$290.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/29.avif" alt = "Item image">
+                            <span class = "discount">10%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Tsak Sha Momos</p>
+                            <div>
+                                <span class = "old-price">$1700.50</span>
+                                <span class = "new-price">$160.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/6.png" alt = "Item image">
+                            <span class = "discount">10%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Eeeg bread Fry</p>
+                            <div>
+                                <span class = "old-price">$330.50</span>
+                                <span class = "new-price">$310.70</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "./assets/img/46.jpg" alt = "Item image">
+                            <span class = "discount">20%</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Fish Fry</p>
+                            <div>
+                                <span class = "old-price">$230.50</span>
+                                <span class = "new-price">$220.30</span>
+                            </div>
+                            <a href = "#" class ="add-btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---FOOTER-->
+    <footer>
+        <div class="footer-main">
+          
+          <div class="footer-tag">
+            <h2>Location</h2>
+            <p>Sri Lanka</p>
+            <p>USA</p>
+            <p>India</p>
+            <p>Japan</p>
+            <p>japan</p>
+          </div>
+          <div class="footer-tag">
+            <h2>Quick Link</h2>
+            <p>Home</p>
+            <p>About</p>
+            <p>galery</p>
+            <p>team</p>
+            <p>review</p>
+          </div>
+          <div class="footer-tag">
+            <h2>Contact Us</h2>
+            <p>+91 6733 738 732</p>
+            <p>+91 9851 959 797</p>
+            <p>+91 1623 667 234</p>
+            <p>ghdgasgd123@gmail.com</p>
+            <p>kiuggzgzy436@gmail.com</p>
+          </div>
+          <div class="footer-tag">
+            <h2>our survice</h2>
+            <p>First Service</p>
+            <p>First Delivary</p>
+            <p>Easy Payment</p>
+            <p>24 * 7 Service</p>
+           
+          </div>
+          <div class="footer-tag">
+            <h2>Follows</h2>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+  
+        <p class="end">Design By----<span><i class="fa-sharp fa-solid fa-face-smile"></i>Shrabani Panda</span></p>
+      </footer>
+      
+
+    <script src = "./assets/js/Menu.js"></script>
+</body>
+</html>
